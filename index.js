@@ -20,8 +20,10 @@ function myCards(Beer) {
     h4.innerText = Beer.state
     const paragraph = document.createElement("p");
     paragraph.innerText = "Beer.brewery_type";
-    const buyButton = document.createElement("Button")
+    const buyButton = document.createElement("Button");
     buyButton.innerText = "Buy";
+    const sellButton = document.createElement("Button");
+    sellButton.innerText = "Sell"
 
 
     parentDiv.appendChild(Img)
@@ -29,6 +31,7 @@ function myCards(Beer) {
     smalldiv.appendChild(h4)
     smalldiv.appendChild(paragraph)
     smalldiv.appendChild(buyButton)
+    smalldiv.appendChild(sellButton)
    
     
     return parentDiv;
@@ -52,5 +55,7 @@ function myCards(Beer) {
             buyButton.style.display = "block"; 
 
         });
+        const sellButton =addEventListener("click", () => {
+            sellButton.style.display = "block";
+        });
 
-        
