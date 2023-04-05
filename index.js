@@ -76,7 +76,7 @@ function myCards(Beer) {
         //     buyButton.style.display = "block"; 
 
         // });
-        const Button =addEventListener("click", () => {
+        const Button = addEventListener("click", () => {
             Button.style.display = "block";
         });
 
