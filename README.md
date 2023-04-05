@@ -1,7 +1,7 @@
 # Brewery
 PROJECT PHASE 1
 #Description
-In These Project I choose to work with the OpenBreweryDB and I used Coffee 
+In These Project I choose to work with the OpenBreweryDB and I used different types of Beer 
 
 #Author Njenga Serah Njoki
 
