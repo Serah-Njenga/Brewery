@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+    color: blue;
+    font-size:xx-large;
+    font-style: oblique;
+    font-stretch: expanded;
+    background-blend-mode: color;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/412/377/original/coffee-cup-logo-coffee-shop-icon-design-free-vector.jpg)
+    }
+   
+    .cards {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 455px;
+    background-color:grey;
+    border-radius: 30px;
+    font-style: inherit;
+    color: black;
+   }
+   .main {
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    flex-wrap: wrap;
+   }
+   .cards:hover {
+    box-shadow: 10px 6px 10px 7px rgba(179, 179, 179, 0.307);
+    transform: translateY(-1.6rem);
+   }
+   .small {
+    padding: 2px 16px;
+   }
+   img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   }
+   h1 {
+    text-align: center;
+    margin: 80px 0;
+   }
+   img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+   }
+   p {
+    font-size: 20px;
+   }
