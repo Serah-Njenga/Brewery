@@ -20,10 +20,10 @@ function myCards(Beer) {
     // h4.innerText = Beer.state
     // const paragraph = document.createElement("p");
     // paragraph.innerText = "10 Barrel Brewing Co - Denver";
-    const buyButton = document.createElement("Button");
-    buyButton.innerText = "Buy";
-    const sellButton = document.createElement("Button");
-    sellButton.innerText = "Sell";
+    // const buyButton = document.createElement("Button");
+    // buyButton.innerText = "Buy";
+    const Button = document.createElement("Button");
+    Button.innerText = "purchase";
     const h3 = document.createElement("h3");
     h3.innerText = "Address;826 W Bannock St";
     const p2 = document.createElement("p2")
@@ -50,8 +50,8 @@ function myCards(Beer) {
     smalldiv.appendChild(p3)
     smalldiv.appendChild(h5)
     smalldiv.appendChild(p4)
-    smalldiv.appendChild(buyButton)
-    smalldiv.appendChild(sellButton)
+    // smalldiv.appendChild(buyButton)
+    smalldiv.appendChild(Button)
     
    
     
@@ -72,11 +72,11 @@ function myCards(Beer) {
         
         };
 
-        const buyButton = addEventListener("click", () => {
-            buyButton.style.display = "block"; 
+        // const buyButton = addEventListener("click", () => {
+        //     buyButton.style.display = "block"; 
 
-        });
-        const sellButton =addEventListener("click", () => {
-            sellButton.style.display = "block";
+        // });
+        const Button =addEventListener("click", () => {
+            Button.style.display = "block";
         });
 
