@@ -181,7 +181,7 @@
     "website_url": "http://www.14erBrewing.com",
     "state": "Colorado",
     "street": "2801 Walnut St"
-  }
+  },
   {
     "id": "6c53984f-fac1-4ea7-9c44-44e25897c71a",
     "name": "14th Star Brewing",
@@ -199,7 +199,7 @@
     "website_url": "http://www.14thstarbrewing.com",
     "state": "Vermont",
     "street": "133 N Main St Ste 7"
-  }
+  },
   {
     "id": "85192a9c-58a4-48c3-bd9d-496d09d22aa3",
     "name": "16 Lots Brewing",
@@ -217,9 +217,24 @@
     "website_url": "http://www.16lots.com",
     "state": "Ohio",
     "street": "753 Reading Rd"
+  },
+  {
+    "id": "284b44f8-6ccb-4cd6-8d06-f2ad882a47c3",
+    "name": "16 Mile Brewing Co",
+    "brewery_type": "micro",
+    "address_1": "413 S Bedford St",
+    "address_2": null,
+    "address_3": null,
+    "city": "Georgetown",
+    "state_province": "Delaware",
+    "postal_code": "19947-1849",
+    "country": "United States",
+    "longitude": "-75.37816436",
+    "latitude": "38.6788938",
+    "phone": "3022538816",
+    "website_url": "http://www.16milebrewery.com",
+    "state": "Delaware",
+    "street": "413 S Bedford St"
   }
-  
-
-  
 ]
 }
