@@ -200,6 +200,24 @@
     "state": "Vermont",
     "street": "133 N Main St Ste 7"
   }
+  {
+    "id": "85192a9c-58a4-48c3-bd9d-496d09d22aa3",
+    "name": "16 Lots Brewing",
+    "brewery_type": "brewpub",
+    "address_1": "753 Reading Rd",
+    "address_2": null,
+    "address_3": null,
+    "city": "Mason",
+    "state_province": "Ohio",
+    "postal_code": "45040-1303",
+    "country": "United States",
+    "longitude": "-84.3183801",
+    "latitude": "39.3545967",
+    "phone": "5134863672",
+    "website_url": "http://www.16lots.com",
+    "state": "Ohio",
+    "street": "753 Reading Rd"
+  }
   
 
   
