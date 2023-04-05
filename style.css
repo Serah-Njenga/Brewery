@@ -5,7 +5,7 @@ body {
     font-style: oblique;
     font-stretch: expanded;
     background-blend-mode: color;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/002/412/377/original/coffee-cup-logo-coffee-shop-icon-design-free-vector.jpg)
+    background-image: url(https://thumbs.dreamstime.com/b/beer-glasses-set-hand-drawing-glass-bottle-vector-mug-ale-lot-foam-alcoholic-drink-bar-pub-menu-oktoberfest-96359072.jpg)
     }
    
     .cards {
@@ -45,4 +45,12 @@ body {
    }
    p {
     font-size: 20px;
+   }
+   .buyButton {
+    background-color: #00b2f0;
+
+   }
+
+   .buyButton:hover {
+    background-color: #00b2f0;
    }

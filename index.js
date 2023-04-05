@@ -1,5 +1,3 @@
-
-
 let fetchData;
  fetch("http://localhost:3000/Brewery") 
  .then((result) => result.json())
@@ -22,12 +20,15 @@ function myCards(Beer) {
     h4.innerText = Beer.state
     const paragraph = document.createElement("p");
     paragraph.innerText = "Beer.brewery_type";
+    const buyButton = document.createElement("Button")
+    buyButton.innerText = "Buy";
 
 
     parentDiv.appendChild(Img)
     parentDiv.appendChild(smalldiv)
     smalldiv.appendChild(h4)
     smalldiv.appendChild(paragraph)
+    smalldiv.appendChild(buyButton)
    
     
     return parentDiv;
@@ -46,3 +47,10 @@ function myCards(Beer) {
         })
         
         };
+
+        const buyButton = addEventListener("click", () => {
+            buyButton.style.display = "block"; 
+
+        });
+
+        
