@@ -44,7 +44,6 @@ function myCards(Beer) {
     
     Button.addEventListener("click",() => {
         Button.style.background = "green";
-        Button.style.background = "maroon";
     } )
     
      parentDiv.appendChild(Img)
