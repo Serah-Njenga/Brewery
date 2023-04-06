@@ -19,6 +19,10 @@ United States
 
 So I picked United States and specified on Denver and the different types of Beer they manufacture, the address and the phone number and you can also purchase 
 
+TECHNOLOGY USED 
+CSS
+JAVASCRIPT
+HTML
 
 #Live Link
 https://serah-njenga.github.io/Brewery/
