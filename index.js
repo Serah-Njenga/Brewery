@@ -42,10 +42,12 @@ function myCards(Beer) {
     const p4 = document.createElement("p4");
     p4.innerText = "303-788-1234";
     
-
-
-
-    parentDiv.appendChild(Img)
+    Button.addEventListener("click",() => {
+        Button.style.background = "green";
+        Button.style.background = "maroon";
+    } )
+    
+     parentDiv.appendChild(Img)
     parentDiv.appendChild(smalldiv)
     // smalldiv.appendChild(h4)
     // smalldiv.appendChild(address_1)
@@ -84,6 +86,7 @@ function myCards(Beer) {
         // });
         const Button = addEventListener("click", () => {
             Button.style.display = "block";
+            
         });
         
         const comments = (e) => {

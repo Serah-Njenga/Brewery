@@ -2,6 +2,10 @@
 PROJECT PHASE 1
 #Description
 In These Project I choose to work with the OpenBreweryDB and I used different types of Beer 
+and at the top of the website there is a comment section where you can leave your review 
+of the beer you have tried.
+#Live Link
+https://serah-njenga.github.io/Brewery/
 
 #Author Njenga Serah Njoki
 
