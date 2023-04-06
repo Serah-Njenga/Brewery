@@ -4,7 +4,7 @@ const commentInput = document.querySelector(".comment");
 const ulReviews = document.querySelector(".ul-reviews");
 
 let fetchData;
- fetch("http://localhost:3000/Brewery") 
+ fetch("https://api.openbrewerydb.org/v1/breweries") 
  .then((result) => result.json())
  .then((res) => {
     fetchData = res;
@@ -90,7 +90,7 @@ function myCards(Beer) {
         
         const comments = (e) => {
             e.preventDefault();
-            fetch(`http://localhost:3000/Reviews`, {
+            fetch(`https://api.openbrewerydb.org/v1/breweries`, {
             method: 'POST',
             headers: {
              "Content-Type": "application/json"
@@ -110,7 +110,7 @@ function myCards(Beer) {
            form.addEventListener('click', comments);
 
         let reviewData;
-fetch("http://localhost:3000/Reviews")
+fetch("https://api.openbrewerydb.org/v1/breweries")
 .then((result) => result.json())
 .then((res) => {
  reviewData = res;
