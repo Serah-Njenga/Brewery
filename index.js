@@ -1,3 +1,8 @@
+const form = document.querySelector(".submit");
+const nameInput = document.querySelector(".name");
+const commentInput = document.querySelector(".comment");
+const ulReviews = document.querySelector(".ul-reviews");
+
 let fetchData;
  fetch("http://localhost:3000/Brewery") 
  .then((result) => result.json())
@@ -36,6 +41,7 @@ function myCards(Beer) {
     h5.innerText = "phone";
     const p4 = document.createElement("p4");
     p4.innerText = "303-788-1234";
+    
 
 
 
@@ -79,4 +85,49 @@ function myCards(Beer) {
         const Button = addEventListener("click", () => {
             Button.style.display = "block";
         });
+        
+        const comments = (e) => {
+            e.preventDefault();
+            fetch(`http://localhost:3000/Reviews`, {
+            method: 'POST',
+            headers: {
+             "Content-Type": "application/json"
+            },
+            body: JSON.stringify(
+             {
+                       name: nameInput.value,
+                       message: commentInput.value,
+             }
+            )
+           })
+           .then((result) => result.json())
+           .then((res) => console.log(res))
+           .catch((error) => console.log(error));
+           };
+           
+           form.addEventListener('click', comments);
+
+        let reviewData;
+fetch("http://localhost:3000/Reviews")
+.then((result) => result.json())
+.then((res) => {
+ reviewData = res;
+ console.log('results --> ', res);
+	reviewList(res);  
+}).catch((e) => console.log(e))
+
+ function reviewList (Reviews) {
+		Reviews.forEach((r) => {
+			const li = document.createElement("li")
+			li.className = "lis"
+			li.innerHTML = `
+			<p>${r.name}</p>
+			<p>${r.message}</p>
+			`;
+			ulReviews.append(li);
+		})
+
+	}
+
+        
 
