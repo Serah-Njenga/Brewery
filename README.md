@@ -4,6 +4,22 @@ PROJECT PHASE 1
 In These Project I choose to work with the OpenBreweryDB and I used different types of Beer 
 and at the top of the website there is a comment section where you can leave your review 
 of the beer you have tried.
+
+LIST OF BREWERIES
+Austria
+England
+France
+Isle of Man
+Ireland
+Poland
+Portugal
+Scotland
+South Korea
+United States
+
+So I picked United States and specified on Denver and the different types of Beer they manufacture, the address and the phone number and you can also purchase 
+
+
 #Live Link
 https://serah-njenga.github.io/Brewery/
 
